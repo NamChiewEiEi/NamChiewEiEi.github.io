@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" centent="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <nav>
+        <button class="btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <h2><li><a href="index.html">รวมข้อมูล A-level</a></li></h2>
+        
+        <ul>
+            <li><a href="content1.html">เนื้อหา</a></li>
+            <li><a href="content2.html">ข้อสอบเก่า</a></li>
+            <li><a href="content3.html">ปฏิทิน</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".btn").on("click", function() {
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+
+    <div class="container">
+        <div class="top-topic">
+            <div class="head-first">
+                <p>A-level คืออะไร</p>
+            </div>
+            <div class="body-first">
+                <p>A-Level (Applied Knowledge Level) นั้นมาจากข้อสอบวิชาสามัญเดิม เน้นการสอบวัดความรู้เชิงวิชาการทาง ทปอ. กำหนดขอบเขตข้อสอบแล้วว่าจะไม่ออกเนื้อหาเกินจากหลักสูตรที่เรียนมาตั้งแต่ชั้น ม.4-ม.6 แน่นอน เนื้อหาจะอ้างอิงหลักสูตรแกนกลางของ สพฐ. เน้นวัดความรู้นำมาประยุกต์ใช้ในการสอบ มีจำนวน 10 วิชา และเลือกสอบสูงสุดได้ถึง 10 วิชา</p>
+                <li>คณิตศาสตร์ประยุกต์ 1</li>
+                <li>คณิตศาสตร์ประยุกต์ 2</li>
+                <li>วิทยาศาสตร์ประยุกต์</li>
+                <li>ฟิสิกส์</li>
+                <li>เคมี</li>
+                <li>ชีววิทยา</li>
+                <li>สังคมศาสตร์</li>
+                <li>ภาษาไทย</li>
+                <li>ภาษาอังกฤษ</li>
+                <li>ภาษาต่างประเทศอื่นๆ (ฝรั่งเศส / เยอรมัน / ญี่ปุ่น / เกาหลี / จีน / บาลี / สเปน)</li>
+            </div>   
+        </div>
+    </div>
+    <section class="sec-part">
+        <div class="con2">
+
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/8161/8161879.png" alt="">
+                <h4>เนื้อหาที่ออกสอบ A-level</h4>
+                <p>รวมเนื้อหามัธยมปลายทั้งหมดในแต่ละรายวิชาที่ใช้ในการสอบ A-level </p>
+                <a href="content1.html" class="blog-btn">ดูเพิ่มเติม</a>
+            </div>
+            <div class="blog-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" alt="">
+                <h4>คลังข้อสอบปีก่อน</h4>
+                <p>รวมข้อสอบทั้ง A-level และ ข้อสอบวิชาสามัญปี 60-66 ของแต่ละวิชา</p>
+                <a href="content2.html" class="blog-btn">ดูเพิ่มเติม</a>
+            </div>
+            <div class="blog-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/5807/5807616.png" alt="">
+                <h4>ปฏิทินตารางเวลา A-level</h4>
+                <p>ตารางเวลาต่างๆเกี่ยวกับการสอบ A-level</p>
+                <a href="content3.html" class="blog-btn">ดูเพิ่มเติม</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+
+
+
+</html>

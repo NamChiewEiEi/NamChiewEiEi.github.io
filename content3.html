@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" centent="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="con3.css"
+</head>
+<body>
+    <nav>
+        <button class="btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <h2><li><a href="index.html">รวมข้อมูล A-level</a></li></h2>
+        
+        <ul>
+            <li><a href="content1.html">เนื้อหา</a></li>
+            <li><a href="content2.html">ข้อสอบเก่า</a></li>
+            <li><a href="content3.html">ปฏิทิน</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".btn").on("click", function() {
+                $("nav ul").toggleClass("nav-active");
+            })
+        });
+    </script>
+        <div class="container">
+            <div class="con-item">
+                <img src="https://www.sangfans.com/wp-content/uploads/2023/06/02-639x1024.jpg">
+            </div>
+        </div>
+</body>
+
+
+
+
+</html>
